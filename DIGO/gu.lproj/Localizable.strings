@@ -1,0 +1,69 @@
+"Digo_Login_member"="સભ્ય નથી? સાઇન અપ કરો";
+"Digo_Diff_Login"="સાઇન અપ કરો";
+"Digo_Diff1_Login"="સભ્ય નથી? ";
+
+"Digo_signUp_member"="પહેલેથી જ એક સભ્ય? પ્રવેશ કરો";
+"Digo_Diff_signUp"="પ્રવેશ કરો";
+"Digo_Diff1_signUp"="પહેલેથી જ એક સભ્ય? ";
+
+"Digo_Hi"="નમસ્તે";
+"Digo_gold_price"="સોનાનો ભાવ :";
+"Digo_Dash_proTitle"="તમે શું કરવા માંગો છો?";
+"Digo_Dash_Start"="થી શરૂ થાય છે";
+
+"Digo_Dash_Karat_Gold"="24 કેરેટ સોનું";
+"Digo_Dash_Safe_Home"="સુરક્ષિત હોમ ડિલિવરી";
+"Digo_Dash_Best_Prices"="શ્રેષ્ઠ કિંમતો";
+"Digo_Dash_Easy_Installment"="સરળ હપ્તા";
+
+"Digo_Dash_Account"="મારું ખાતું";
+"Digo_Dash_About"="અમારા વિશે";
+"Digo_Dash_Best_EMI"="EMI યોજનાઓ";
+"Digo_Dash_Gold Prices"="સોનાનો ભાવ";
+
+"Digo_Quick_Links"="ઝડપી સંપર્ક";
+"Digo_Gold_Coins"="સોનાનો સિક્કો";
+"Digo_Gold_Bars"="સોનાના બાર";
+
+"Digo_installments"="હપ્તાઓ";
+"Digo_per_installments"="હપ્તા દીઠ";
+
+"Digo_Profile_Change_Language"="ભાષા બદલો";
+"Digo_Profile_Timeline"="સમયરેખા";
+"Digo_Profile_Contact"="અમારો સંપર્ક કરો";
+"Digo_Profile_Sign"="સાઇન આઉટ કરો";
+"Digo_Profile_Refer"="મિત્રનો સંદર્ભ લો";
+"Digo_Profile_Pay_EMI"="EMI ચૂકવો";
+"Digo_Profile_Switch_Account"="એકાઉન્ટ સ્વિચ કરો";
+"Digo_Profile_Cancel_EMI"="EMI રદ કરો";
+"Digo_Plan"="EMI પ્લાન";
+"Digo_Sign_Up"="સાઇન આઉટ કરીએ?";
+"Digo_alet_meg"="શું તમે ખરેખર સાઇન આઉટ કરવા માંગો છો?";
+"Digo_contact_email"="અમને ઇમેઇલ કરો";
+"Digo_contact_Call"="અમને કૉલ કરો";
+"Digo_contact_open"="ખોલવા માટે અહીં કૉલ કરો";
+"Digo_contact_whatsapp"="અમને ટેક્સ્ટ કરો";
+"Digo_pay_now"="હવે પૈસા આપો";
+"Digo_EMI_Price"="EMI કિંમત :";
+
+"Digo_Ok"="બરાબર";
+"Digo_Cancel"="રદ કરો";
+
+"Digo_error_msg1"="કૃપા કરીને ઇમેઇલ અથવા મોબાઇલ દાખલ કરો";
+"Digo_error_msg2"="કૃપા કરીને પાસવર્ડ દાખલ કરો";
+
+"Digo_error_msg3"="કૃપા કરીને માન્ય નામ દાખલ કરો";
+"Digo_error_msg4"="કૃપા કરીને માન્ય મોબાઇલ નંબર દાખલ કરો";
+"Digo_error_msg5"="કૃપા કરીને માન્ય પાસવર્ડ દાખલ કરો";
+"Digo_error_msg6"="કૃપા કરીને ઇમેઇલ દાખલ કરો";
+"Digo_error_msg7"="કૃપા કરીને માન્ય ઇમેઇલ દાખલ કરો";
+
+
+"Digo_error_msg8"="કૃપા કરીને એક હપ્તા વિકલ્પ પસંદ કરો";
+"Digo_Success_Msg"="તમારી ચુકવણી સફળ થઈ છે";
+"Digo_Error_Msg"="તમારી ચુકવણી નિષ્ફળ ગઈ છે";
+"Digo_home"="ઘરે જાવ";
+
+"Digo_credit"="₹10 ક્રેડિટ મેળવો";
+"Digo_order"="ઓર્ડર";
+"Digo_Order_List"="ઓર્ડર યાદી";

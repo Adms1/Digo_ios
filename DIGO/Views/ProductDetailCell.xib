@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductDetailCell" rowHeight="90" id="KGk-i7-Jjw" customClass="ProductDetailCell" customModule="DIGO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8q3-87-w0C">
+                        <rect key="frame" x="20" y="0.0" width="280" height="90"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ll-AG-sMj">
+                                <rect key="frame" x="10" y="30" width="20" height="20"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="XZz-dg-iAH"/>
+                                    <constraint firstAttribute="width" constant="20" id="csH-K7-Xpl"/>
+                                </constraints>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63Y-SX-3a0">
+                                <rect key="frame" x="40" y="19" width="46.5" height="22"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KlL-gB-qTW">
+                                <rect key="frame" x="40" y="39" width="46.5" height="22"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PAS-7y-c1P">
+                                <rect key="frame" x="10" y="84" width="260" height="1"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Dgd-1L-jGX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1ll-AG-sMj" firstAttribute="leading" secondItem="8q3-87-w0C" secondAttribute="leading" constant="10" id="27z-85-Odf"/>
+                            <constraint firstItem="63Y-SX-3a0" firstAttribute="leading" secondItem="1ll-AG-sMj" secondAttribute="trailing" constant="10" id="4EL-xQ-WOE"/>
+                            <constraint firstAttribute="trailing" secondItem="PAS-7y-c1P" secondAttribute="trailing" constant="10" id="AUo-TF-Csf"/>
+                            <constraint firstItem="1ll-AG-sMj" firstAttribute="centerY" secondItem="8q3-87-w0C" secondAttribute="centerY" constant="-5" id="HhW-Ay-JTU"/>
+                            <constraint firstItem="63Y-SX-3a0" firstAttribute="centerY" secondItem="8q3-87-w0C" secondAttribute="centerY" constant="-15" id="JRx-cn-g3I"/>
+                            <constraint firstItem="PAS-7y-c1P" firstAttribute="leading" secondItem="8q3-87-w0C" secondAttribute="leading" constant="10" id="NPn-7H-pd2"/>
+                            <constraint firstItem="KlL-gB-qTW" firstAttribute="centerY" secondItem="8q3-87-w0C" secondAttribute="centerY" constant="5" id="bou-NO-jVf"/>
+                            <constraint firstItem="KlL-gB-qTW" firstAttribute="leading" secondItem="1ll-AG-sMj" secondAttribute="trailing" constant="10" id="hfR-O3-UVJ"/>
+                            <constraint firstAttribute="bottom" secondItem="PAS-7y-c1P" secondAttribute="bottom" constant="5" id="tkU-Ls-Xh6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.97846668960000005" green="0.95472007989999996" blue="0.90082859989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="8q3-87-w0C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="9Rr-5A-piX"/>
+                    <constraint firstAttribute="trailing" secondItem="8q3-87-w0C" secondAttribute="trailing" constant="20" id="PjF-fP-Azn"/>
+                    <constraint firstAttribute="bottom" secondItem="8q3-87-w0C" secondAttribute="bottom" id="fUy-Bq-cU5"/>
+                    <constraint firstItem="8q3-87-w0C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="nQg-n6-S6P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnSelectDeselect" destination="1ll-AG-sMj" id="JN0-a1-tdQ"/>
+                <outlet property="lblInstallmentPrice" destination="KlL-gB-qTW" id="CIp-0b-fmV"/>
+                <outlet property="lblInstallmentTitle" destination="63Y-SX-3a0" id="yNy-Ac-zgI"/>
+            </connections>
+            <point key="canvasLocation" x="13.043478260869566" y="115.17857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

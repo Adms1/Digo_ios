@@ -1,0 +1,141 @@
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "0hO-cl-7iA"; */
+"0hO-cl-7iA.text" = "Password";
+
+/* Class = "UILabel"; text = "Enter Email ID"; ObjectID = "0hj-c5-w4m"; */
+"0hj-c5-w4m.text" = "Enter Email ID";
+
+/* Class = "UILabel"; text = "Select A Language"; ObjectID = "0n9-gd-UAL"; */
+"0n9-gd-UAL.text" = "Select A Language";
+
+/* Class = "UILabel"; text = "Welcome to DIGO"; ObjectID = "1wx-sX-5Hs"; */
+"1wx-sX-5Hs.text" = "Welcome to DIGO";
+
+/* Class = "UITextField"; placeholder = "Text Here"; ObjectID = "3iy-Q4-I5v"; */
+"3iy-Q4-I5v.placeholder" = "Text Here";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "5hg-q9-MtX"; */
+"5hg-q9-MtX.normalTitle" = "Login";
+
+/* Class = "UITabBarItem"; title = "Account"; ObjectID = "7xs-71-fHY"; */
+"7xs-71-fHY.title" = "Account";
+
+/* Class = "UILabel"; text = "Text will come Here and will also come Here"; ObjectID = "89c-lh-o5K"; */
+"89c-lh-o5K.text" = "Text will come Here and will also come Here";
+
+/* Class = "UILabel"; text = "Enter Mobile Number"; ObjectID = "8Xc-w6-0sr"; */
+"8Xc-w6-0sr.text" = "Enter Mobile Number";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "ABT-xl-Ng8"; */
+"ABT-xl-Ng8.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "Text Us"; ObjectID = "AVf-EZ-O1P"; */
+"AVf-EZ-O1P.text" = "Text Us";
+
+/* Class = "UILabel"; text = "Call Us"; ObjectID = "Ai2-QM-Fj7"; */
+"Ai2-QM-Fj7.text" = "Call Us";
+
+/* Class = "UIButton"; normalTitle = "Call here to call"; ObjectID = "E0k-4Q-i8x"; */
+"E0k-4Q-i8x.normalTitle" = "Call here to call";
+
+/* Class = "UILabel"; text = "Contact Us"; ObjectID = "E43-zb-gUO"; */
+"E43-zb-gUO.text" = "Contact Us";
+
+/* Class = "UILabel"; text = "Gold Price : XXXX"; ObjectID = "EMt-c2-1QV"; */
+"EMt-c2-1QV.text" = "Gold Price : XXXX";
+
+/* Class = "UIButton"; normalTitle = "Call here to open whatsapp"; ObjectID = "Gat-et-7qc"; */
+"Gat-et-7qc.normalTitle" = "Call here to open whatsapp";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "JKC-Fq-Z0m"; */
+"JKC-Fq-Z0m.text" = "Password";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Jhe-jQ-t65"; */
+"Jhe-jQ-t65.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Continue with Gmail"; ObjectID = "Jjp-1W-R2c"; */
+"Jjp-1W-R2c.normalTitle" = "Continue with Gmail";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "NZP-9f-K9J"; */
+"NZP-9f-K9J.text" = "English";
+
+/* Class = "UITabBarItem"; title = "Bars"; ObjectID = "OF0-br-mXn"; */
+"OF0-br-mXn.title" = "Bars";
+
+/* Class = "UILabel"; text = "Email ID/Mobile"; ObjectID = "Paq-eD-eD5"; */
+"Paq-eD-eD5.text" = "Email ID/Mobile";
+
+/* Class = "UITextField"; placeholder = "Text Here"; ObjectID = "Qjn-qE-XJE"; */
+"Qjn-qE-XJE.placeholder" = "Text Here";
+
+/* Class = "UILabel"; text = "Create New Account"; ObjectID = "TnS-gA-35U"; */
+"TnS-gA-35U.text" = "Create New Account";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "X7a-if-vvx"; */
+"X7a-if-vvx.text" = "Description";
+
+/* Class = "UITextField"; placeholder = "Text Here"; ObjectID = "Xw9-YB-fbQ"; */
+"Xw9-YB-fbQ.placeholder" = "Text Here";
+
+/* Class = "UILabel"; text = "Email Us"; ObjectID = "YS7-c1-eSY"; */
+"YS7-c1-eSY.text" = "Email Us";
+
+/* Class = "UILabel"; text = "Get ₹ 10 credit"; ObjectID = "bIC-Pc-de9"; */
+"bIC-Pc-de9.text" = "Get ₹ 10 credit";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "bJy-d0-kwf"; */
+"bJy-d0-kwf.text" = "English";
+
+/* Class = "UILabel"; text = "Gold Bars"; ObjectID = "g9f-y9-Nmu"; */
+"g9f-y9-Nmu.text" = "Gold Bars";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "gBw-4u-yvb"; */
+"gBw-4u-yvb.text" = "Mobile Number";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "gpz-2z-9M3"; */
+"gpz-2z-9M3.text" = "Login";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "grG-5g-813"; */
+"grG-5g-813.title" = "Home";
+
+/* Class = "UILabel"; text = "Gold Coins"; ObjectID = "gsk-n7-Xl8"; */
+"gsk-n7-Xl8.text" = "Gold Coins";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "iaO-8v-bJl"; */
+"iaO-8v-bJl.text" = "OR";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iqU-OR-aWi"; */
+"iqU-OR-aWi.text" = "Label";
+
+/* Class = "UILabel"; text = "Quick Links"; ObjectID = "kTA-pt-YoL"; */
+"kTA-pt-YoL.text" = "Quick Links";
+
+/* Class = "UILabel"; text = "Enter Name"; ObjectID = "lVf-dd-Urv"; */
+"lVf-dd-Urv.text" = "Enter Name";
+
+/* Class = "UITabBarItem"; title = "Coins"; ObjectID = "mZv-Ud-SXU"; */
+"mZv-Ud-SXU.title" = "Coins";
+
+/* Class = "UILabel"; text = "XX %"; ObjectID = "mcW-ke-YMg"; */
+"mcW-ke-YMg.text" = "XX %";
+
+/* Class = "UILabel"; text = "E-mail ID"; ObjectID = "s3m-Xb-RaC"; */
+"s3m-Xb-RaC.text" = "E-mail ID";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "spu-s5-eE0"; */
+"spu-s5-eE0.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Continue with Facebook"; ObjectID = "t2R-2r-XEi"; */
+"t2R-2r-XEi.normalTitle" = "Continue with Facebook";
+
+/* Class = "UILabel"; text = "Refer a Friend"; ObjectID = "ui8-YS-Yec"; */
+"ui8-YS-Yec.text" = "Refer a Friend";
+
+/* Class = "UIButton"; normalTitle = "Pay Now"; ObjectID = "xUj-eo-FxH"; */
+"xUj-eo-FxH.normalTitle" = "Pay Now";
+
+/* Class = "UIButton"; normalTitle = "Call here to email"; ObjectID = "xgt-wH-C47"; */
+"xgt-wH-C47.normalTitle" = "Call here to email";
+
+/* Class = "UILabel"; text = "HI  Aj 1"; ObjectID = "zFL-RR-uZl"; */
+"zFL-RR-uZl.text" = "HI  Aj 1";

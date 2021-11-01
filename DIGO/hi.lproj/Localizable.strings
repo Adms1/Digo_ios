@@ -1,0 +1,68 @@
+"Digo_Login_member"="सदस्य नहीं है? साइन अप करें";
+"Digo_Diff_Login"="साइन अप करें";
+"Digo_Diff1_Login"="सदस्य नहीं है? ";
+
+"Digo_signUp_member"="क्या पहले से ही सदस्य हैं? लॉग इन करें";
+"Digo_Diff_signUp"="लॉग इन करें";
+"Digo_Diff1_signUp"="क्या पहले से ही सदस्य हैं? ";
+"Digo_Hi"="नमस्ते";
+"Digo_gold_price"="सोने की कीमत :";
+"Digo_Dash_proTitle"="आप क्या करना चाहते हैं?";
+"Digo_Dash_Start"="से शुरू";
+
+"Digo_Dash_Karat_Gold"="24 कैरेट गोल्ड";
+"Digo_Dash_Safe_Home"="सुरक्षित होम डिलीवरी";
+"Digo_Dash_Best_Prices"="उत्तम दाम";
+"Digo_Dash_Easy_Installment"="आसान किश्त";
+
+"Digo_Dash_Account"="मेरा खाता";
+"Digo_Dash_About"="हमारे बारे में";
+"Digo_Dash_Best_EMI"="ईएमआई योजनाएं";
+"Digo_Dash_Gold Prices"="सोने की कीमतों";
+
+"Digo_Quick_Links"="त्वरित सम्पक";
+"Digo_Gold_Coins"="सोने का सिक्का";
+"Digo_Gold_Bars"="सोने की पट्टी";
+
+"Digo_installments"="किश्त";
+"Digo_per_installments"="प्रति किश्त";
+
+"Digo_Profile_Change_Language"="भाषा बदलें";
+"Digo_Profile_Timeline"="समय";
+"Digo_Profile_Contact"="संपर्क करें";
+"Digo_Profile_Sign"="साइन आउट";
+"Digo_Profile_Refer"="मित्र को आमंत्रित करें";
+"Digo_Profile_Pay_EMI"="ईएमआई का भुगतान करें";
+"Digo_Profile_Switch_Account"="खाता बदलिये";
+"Digo_Profile_Cancel_EMI"="ईएमआई रद्द करें";
+"Digo_Plan"="ईएमआई योजना";
+"Digo_Sign_Up"="साइन आउट?";
+"Digo_alet_meg"="क्या आप द्वारा साइन आउट किया जाना सुनिश्चित है?";
+"Digo_contact_email"="हमें ईमेल करें";
+"Digo_contact_Call"="हमें कॉल करें";
+"Digo_contact_open"="खोलने के लिए यहां कॉल करें";
+"Digo_contact_whatsapp"="हमें पाठ करें";
+"Digo_pay_now"="अब भुगतान करें";
+"Digo_EMI_Price"="ईएमआई कीमत :";
+
+"Digo_Ok"="ठीक है";
+"Digo_Cancel"="रद्द करना";
+
+"Digo_error_msg1"="कृपया ईमेल या मोबाइल दर्ज करें";
+"Digo_error_msg2"="कृप्या पास्वर्ड भरो";
+
+
+
+"Digo_error_msg3"="कृपया मान्य नाम दर्ज करें";
+"Digo_error_msg4"="कृपया मान्य मोबाइल नंबर दर्ज करें";
+"Digo_error_msg5"="कृपया मान्य पासवर्ड दर्ज करें";
+"Digo_error_msg6"="कृपया ईमेल दर्ज करें";
+"Digo_error_msg7"="कृपया वैध ईमेल दर्ज़ करें";
+"Digo_error_msg8"="कृपया एक किस्त विकल्प चुनें";
+"Digo_Success_Msg"="आपका भुगतान सफल हो गया है";
+"Digo_Error_Msg"="आपका भुगतान विफल हो गया है";
+"Digo_home"="घर जाओ";
+
+"Digo_credit"="₹10 क्रेडिट पाएं";
+"Digo_order"="आदेश";
+"Digo_Order_List"="आदेश सूची";

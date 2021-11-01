@@ -1,0 +1,76 @@
+
+"Digo_Login_member"="Not a member? Sign Up";
+"Digo_Diff_Login"="Sign Up";
+"Digo_Diff1_Login"="Not a member? ";
+
+"Digo_signUp_member"="Already a member? Login";
+"Digo_Diff_signUp"="Login";
+"Digo_Diff1_signUp"="Already a member? ";
+
+"Digo_Hi"="HI";
+"Digo_gold_price"="Gold Price :";
+"Digo_Dash_proTitle"="What do you want to do?";
+"Digo_Dash_Start"="Starting From";
+
+
+"Digo_Dash_Karat_Gold"="24 Karat Gold";
+"Digo_Dash_Safe_Home"="Safe Home Delivery";
+"Digo_Dash_Best_Prices"="Best Prices";
+"Digo_Dash_Easy_Installment"="Easy Installments";
+
+"Digo_Dash_Account"="My Account";
+"Digo_Dash_About"="About Us";
+"Digo_Dash_Best_EMI"="EMI Plans";
+"Digo_Dash_Gold Prices"="Gold Prices";
+
+"Digo_Quick_Links"="Quick Links";
+
+"Digo_Gold_Coins"="Gold Coin";
+"Digo_Gold_Bars"="Gold Bar";
+
+"Digo_installments"="installments";
+"Digo_per_installments"="per installment";
+
+"Digo_Profile_Change_Language"="Change Language";
+"Digo_Profile_Timeline"="Timeline";
+"Digo_Profile_Contact"="Contact Us";
+"Digo_Profile_Sign"="Sign Out";
+"Digo_Profile_Refer"="Refer a Friend";
+"Digo_Profile_Pay_EMI"="Pay EMI";
+"Digo_Profile_Switch_Account"="Switch Account";
+"Digo_Profile_Cancel_EMI"="Cancel EMI";
+
+"Digo_Plan"="EMI Plan";
+
+"Digo_Sign_Up"="Sign Out?";
+"Digo_alet_meg"="Are you sure you want to sign out?";
+
+"Digo_Ok"="OK";
+"Digo_Cancel"="CANCEL";
+
+"Digo_pay_now"="Pay Now";
+"Digo_EMI_Price"="Emi Price :";
+
+"Digo_contact_email"="Email Us";
+"Digo_contact_Call"="Call Us";
+"Digo_contact_open"="Call here to open";
+"Digo_contact_whatsapp"="Text Us";
+
+"Digo_error_msg1"="Please enter email or mobile";
+"Digo_error_msg2"="Please enter password";
+
+"Digo_error_msg3"="Please enter valid name";
+"Digo_error_msg4"="Please enter valid mobile number";
+"Digo_error_msg5"="Please enter valid password";
+"Digo_error_msg6"="Please enter email";
+"Digo_error_msg7"="Please enter valid email";
+
+"Digo_error_msg8"="Please select one installment option";
+
+"Digo_Success_Msg"="payment success";
+"Digo_Error_Msg"="payment failed";
+"Digo_home"="Go To Home";
+
+"Digo_credit"="Get ₹10 credit";
+"Digo_order"="Orders";
+"Digo_Order_List"="Order List";

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectiontabListCell" id="gTV-IL-0wX" customClass="CollectiontabListCell" customModule="DIGO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="96" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="96" height="125"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LG9-5y-fKd">
+                        <rect key="frame" x="0.0" y="0.0" width="96" height="125"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin.png" translatesAutoresizingMaskIntoConstraints="NO" id="YHk-bs-QyL">
+                                <rect key="frame" x="13" y="0.0" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="23j-IX-7HQ"/>
+                                    <constraint firstAttribute="width" constant="70" id="heL-rt-rXY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Account" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZk-XW-aws">
+                                <rect key="frame" x="10" y="75" width="76" height="45"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="JZk-XW-aws" secondAttribute="bottom" constant="5" id="aY6-5L-NTU"/>
+                            <constraint firstItem="JZk-XW-aws" firstAttribute="centerX" secondItem="LG9-5y-fKd" secondAttribute="centerX" id="hlM-GT-j5o"/>
+                            <constraint firstItem="JZk-XW-aws" firstAttribute="top" secondItem="YHk-bs-QyL" secondAttribute="bottom" constant="5" id="hlZ-lS-hfC"/>
+                            <constraint firstItem="YHk-bs-QyL" firstAttribute="top" secondItem="LG9-5y-fKd" secondAttribute="top" id="kkZ-Sa-ibK"/>
+                            <constraint firstAttribute="trailing" secondItem="JZk-XW-aws" secondAttribute="trailing" constant="10" id="qsX-HP-dYX"/>
+                            <constraint firstItem="JZk-XW-aws" firstAttribute="leading" secondItem="LG9-5y-fKd" secondAttribute="leading" constant="10" id="ttx-CR-UC8"/>
+                            <constraint firstItem="YHk-bs-QyL" firstAttribute="centerX" secondItem="LG9-5y-fKd" secondAttribute="centerX" id="vx1-6h-uTQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" red="0.27731087799999998" green="0.59742671250000001" blue="0.27855676410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LG9-5y-fKd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3dT-xq-Nfk"/>
+                <constraint firstAttribute="trailing" secondItem="LG9-5y-fKd" secondAttribute="trailing" id="Ojg-26-O5d"/>
+                <constraint firstItem="LG9-5y-fKd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="a6a-yD-cdi"/>
+                <constraint firstAttribute="bottom" secondItem="LG9-5y-fKd" secondAttribute="bottom" id="hlW-fc-FHH"/>
+            </constraints>
+            <size key="customSize" width="96" height="127"/>
+            <connections>
+                <outlet property="imgVC" destination="YHk-bs-QyL" id="ulT-Mb-k0H"/>
+                <outlet property="lblTitle" destination="JZk-XW-aws" id="sf0-CZ-Rct"/>
+            </connections>
+            <point key="canvasLocation" x="42.028985507246382" y="102.79017857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="coin.png" width="240" height="240"/>
+    </resources>
+</document>

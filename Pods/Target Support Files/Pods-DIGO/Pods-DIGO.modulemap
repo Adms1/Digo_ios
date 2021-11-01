@@ -1,0 +1,6 @@
+framework module Pods_DIGO {
+  umbrella header "Pods-DIGO-umbrella.h"
+
+  export *
+  module * { export * }
+}
