@@ -8,6 +8,7 @@
 import UIKit
 import SDWebImage
 import MBProgressHUD
+import Toaster
 
 class CoinsVC: UIViewController {
 
@@ -111,7 +112,10 @@ extension CoinsVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+        //    self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+
         }
 
         dispetchGroup.notify(queue: .main) {

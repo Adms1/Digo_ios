@@ -62,28 +62,43 @@ extension ReferFriendVC
 
         if Firstname == ""
         {
-            self.view.makeToast(NSLocalizedString("Digo_error_msg3", comment: ""))
+           // self.view.makeToast(NSLocalizedString("Digo_error_msg3", comment: ""))
+            let toast =  Toast(text: (NSLocalizedString("Digo_error_msg3", comment: "")), duration: 3.0)
+            toast.show()
+
             valid = false
         }
         else if MobileNumber == ""
         {
-            self.view.makeToast(NSLocalizedString("Digo_error_msg4", comment: ""))
+           // self.view.makeToast(NSLocalizedString("Digo_error_msg4", comment: ""))
+            let toast =  Toast(text: (NSLocalizedString("Digo_error_msg4", comment: "")), duration: 3.0)
+            toast.show()
+
             valid = false
         }
 
         else if (MobileNumber.count < 10)
         {
-            self.view.makeToast(NSLocalizedString("Digo_error_msg4", comment: ""))
+            //self.view.makeToast(NSLocalizedString("Digo_error_msg4", comment: ""))
+            let toast =  Toast(text: (NSLocalizedString("Digo_error_msg4", comment: "")), duration: 3.0)
+            toast.show()
+
             valid = false
         }
         else if Email == ""
         {
-            self.view.makeToast(NSLocalizedString("Digo_error_msg6", comment: ""))
+          //  self.view.makeToast(NSLocalizedString("Digo_error_msg6", comment: ""))
+            let toast =  Toast(text: (NSLocalizedString("Digo_error_msg6", comment: "")), duration: 3.0)
+            toast.show()
+
             valid = false
         }
         else if !Email.isValidEmail()
         {
-            self.view.makeToast(NSLocalizedString("Digo_error_msg7", comment: ""))
+           // self.view.makeToast(NSLocalizedString("Digo_error_msg7", comment: ""))
+            let toast =  Toast(text: (NSLocalizedString("Digo_error_msg7", comment: "")), duration: 3.0)
+            toast.show()
+
             valid = false
         }
 
@@ -175,7 +190,10 @@ extension ReferFriendVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+          //  self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+
         }
     }
 }

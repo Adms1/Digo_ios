@@ -264,11 +264,18 @@ extension LoginVC
 
         if EmailMobile == ""
         {
-            self.view.makeToast(NSLocalizedString("Digo_error_msg1", comment: ""))
+          //  self.view.makeToast(NSLocalizedString("Digo_error_msg1", comment: ""))
+            let toast =  Toast(text: (NSLocalizedString("Digo_error_msg1", comment: "")), duration: 3.0)
+            toast.show()
+
+
             valid = false
         }else if Password == ""
         {
-            self.view.makeToast(NSLocalizedString("Digo_error_msg2", comment: ""))
+            let toast =  Toast(text: (NSLocalizedString("Digo_error_msg2", comment: "")), duration: 3.0)
+            toast.show()
+
+          //  self.view.makeToast(NSLocalizedString("Digo_error_msg2", comment: ""))
             valid = false
         }
         return valid
@@ -319,7 +326,10 @@ extension LoginVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+          //  self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+
         }
     }
     func checkEmailDuplicateApiCall(userEmail:String)
@@ -360,7 +370,7 @@ extension LoginVC{
                 appDelegate.window?.makeKeyAndVisible()
 
 
-                self.view.makeToast("email is already registered", duration: 3.0, position: .bottom)
+//                self.view.makeToast("email is already registered", duration: 3.0, position: .bottom)
             }else
             {
 //                MBProgressHUD.hide(for: self.view, animated: true)
@@ -428,6 +438,7 @@ extension LoginVC{
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
             let toast =  Toast(text: errorMessage, duration: 3.0)
+          //  ToastView.appearance().font = .boldSystemFont(ofSize: 18)
             toast.show()
            // self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
         }

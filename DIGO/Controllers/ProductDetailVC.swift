@@ -11,6 +11,7 @@ import SwiftyJSON
 import SDWebImage
 import Razorpay
 import Toast_Swift
+import Toaster
 
 
 class ProductDetailVC: UIViewController {
@@ -75,7 +76,9 @@ class ProductDetailVC: UIViewController {
     {
         if selectedNoOfInstallment == ""
         {
-            self.view.makeToast(NSLocalizedString("Digo_error_msg8", comment: ""), duration: 3.0, position: .bottom)
+           // self.view.makeToast(NSLocalizedString("Digo_error_msg8", comment: ""), duration: 3.0, position: .bottom)
+            let toast =  Toast(text: NSLocalizedString("Digo_error_msg8", comment: ""), duration: 3.0)
+            toast.show()
 
         }else{
             callApiGeneratePaymentRequest_Razor()
@@ -188,7 +191,11 @@ extension ProductDetailVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+          //  self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+
+
         }
     }
     func callApiGeneratePaymentRequest_Razor()
@@ -232,7 +239,10 @@ extension ProductDetailVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+           // self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+
         }
     }
 
@@ -279,7 +289,10 @@ extension ProductDetailVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+          //  self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+
         }
     }
 }

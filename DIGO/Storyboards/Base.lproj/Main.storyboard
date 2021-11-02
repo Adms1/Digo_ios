@@ -1518,7 +1518,7 @@ VGV4dBAgVXM
                                                 </constraints>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="25"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="HkC-Nl-MhC" id="9lf-g2-kdO"/>
                                                 </connections>

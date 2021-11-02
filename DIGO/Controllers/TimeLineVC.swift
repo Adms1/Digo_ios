@@ -9,6 +9,7 @@ import UIKit
 import MBProgressHUD
 import SwiftyJSON
 import Razorpay
+import Toaster
 
 class TimeLineVC: UIViewController {
 
@@ -233,12 +234,18 @@ extension TimeLineVC{
                 dispetchGroup.leave()
             }else
             {
-                self.view.makeToast(responceJson["Msg"].stringValue, duration: 3.0, position: .bottom)
+               // self.view.makeToast(responceJson["Msg"].stringValue, duration: 3.0, position: .bottom)
+                let toast =  Toast(text: responceJson["Msg"].stringValue, duration: 3.0)
+                toast.show()
+
                 MBProgressHUD.hide(for: self.view, animated: true)
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+          //  self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+
         }
 
         dispetchGroup.notify(queue: .main) {
@@ -301,7 +308,9 @@ extension TimeLineVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+         //   self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
         }
     }
     func callApiUpdatePayment(payment_id:String,StatusID:String)
@@ -334,7 +343,9 @@ extension TimeLineVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+           // self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
         }
     }
 }
