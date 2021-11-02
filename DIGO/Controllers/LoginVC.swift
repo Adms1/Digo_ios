@@ -7,6 +7,7 @@
 
 import UIKit
 import MBProgressHUD
+import Toaster
 //import GoogleSignIn
 //import FBSDKCoreKit
 //import FBSDKLoginKit
@@ -426,8 +427,9 @@ extension LoginVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+           // self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
         }
     }
 }

@@ -74,3 +74,10 @@
 "Digo_credit"="Get ₹10 credit";
 "Digo_order"="Orders";
 "Digo_Order_List"="Order List";
+
+"Digo_success_register"="Thank you for registeration";
+"Digo_mobile_exit"="mobile number already exists";
+"Digo_refferal"="Thank you for your referral!";
+"Digo_email_exit"="email is already registered";
+
+

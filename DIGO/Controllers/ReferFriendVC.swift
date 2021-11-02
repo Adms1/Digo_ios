@@ -9,8 +9,9 @@ import UIKit
 import SwiftyJSON
 import Toast_Swift
 import MBProgressHUD
+import Toaster
 
-class ReferFriendVC: UIViewController {
+class ReferFriendVC: UIViewController,UITextFieldDelegate {
 
     @IBOutlet weak var txtName:UITextField!
     @IBOutlet weak var txtNumber:UITextField!
@@ -162,10 +163,11 @@ extension ReferFriendVC{
                 self.txtName.text = ""
                 self.txtNumber.text = ""
                 self.txtEmail.text = ""
-
                 MBProgressHUD.hide(for: self.view, animated: true)
-                self.view.makeToast(responceJson["Msg"].stringValue, duration: 3.0, position: .bottom)
-
+              //  self.showToast(message: responceJson["Msg"].stringValue, seconds: 3.0)
+//                self.view.makeToast(responceJson["Msg"].stringValue, duration: 3.0, position: .bottom)
+                let toast =  Toast(text: NSLocalizedString("Digo_refferal", comment: ""), duration: 3.0)
+                toast.show()
                 self.navigationController?.popViewController(animated: false)
             }else
             {

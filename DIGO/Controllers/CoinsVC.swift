@@ -80,7 +80,11 @@ extension CoinsVC{
     func coinsListApiCall()
     {
         self.arrProductList.removeAll()
+
+        let dispetchGroup = DispatchGroup()
         MBProgressHUD.showAdded(to: self.view, animated: true)
+
+        dispetchGroup.enter()
 
         var params = [String : Any]()
         params = ["ProductTypeID":"1"]
@@ -95,9 +99,10 @@ extension CoinsVC{
                     let pckgDetModel:productList = productList.init(ProductID: value["ProductID"].intValue, ProductType: value["ProductType"].stringValue, PurchasePrice: value["PurchasePrice"].stringValue, ProductTypeID: value["ProductTypeID"].intValue, SalesAmount: value["SalesAmount"].stringValue, Description: value["Description"].stringValue, ProductImage: value["ProductImage"].stringValue, NoofInstallment: value["NoofInstallment"].stringValue, IsActive: value["IsActive"].boolValue, CreateDate: value["CreateDate"].stringValue, ProductName: value["ProductName"].stringValue, InterestRate: value["InterestRate"].stringValue)
                     self.arrProductList.append(pckgDetModel)
                 }
-                DispatchQueue.main.async {
-                    self.tblCoinList.reloadData()
-                }
+                dispetchGroup.leave()
+//                DispatchQueue.main.async {
+//                    self.tblCoinList.reloadData()
+//                }
 
 
             }else
@@ -108,5 +113,10 @@ extension CoinsVC{
             MBProgressHUD.hide(for: self.view, animated: true)
             self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
         }
+
+        dispetchGroup.notify(queue: .main) {
+            self.tblCoinList.reloadData()
+        }
+
     }
 }

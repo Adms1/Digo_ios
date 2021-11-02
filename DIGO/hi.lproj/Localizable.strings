@@ -66,3 +66,7 @@
 "Digo_credit"="₹10 क्रेडिट पाएं";
 "Digo_order"="आदेश";
 "Digo_Order_List"="आदेश सूची";
+"Digo_success_register"="पंजीकरण के लिए धन्यवाद";
+"Digo_mobile_exit"="मोबाइल नंबर पहले से मौजूद है";
+"Digo_refferal"="आपके रेफरल के लिए धन्यवाद!";
+"Digo_email_exit"="ईमेल पहले से ही पंजीकृत है";

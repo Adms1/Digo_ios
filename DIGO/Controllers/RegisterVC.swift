@@ -8,6 +8,7 @@
 import UIKit
 import Toast_Swift
 import MBProgressHUD
+import Toaster
 
 class RegisterVC: UITableViewController,UITextFieldDelegate {
 
@@ -194,11 +195,39 @@ extension RegisterVC{
                 MBProgressHUD.hide(for: self.view, animated: true)
 
                 print("register user status",responceJson["status"])
-                self.navigationController?.popViewController(animated: true)
+                let jsonArray = responceJson["data"].dictionaryObject!
+                UserDefaults.standard.set(jsonArray, forKey: "logindata")
+                UserDefaults.standard.set("1", forKey: "isLogin")
+
+//                self.view.makeToast(NSLocalizedString("Digo_success_register", comment: ""), duration: 3.0, position: .bottom)
+                let toast =  Toast(text: NSLocalizedString("Digo_success_register", comment: ""), duration: 3.0)
+                toast.show()
+
+                let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//                appDelegate.PushTLoginViewController()
+
+
+                let rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BaseTabBarViewController") as! BaseTabBarViewController
+
+        //                    let rootVC = storyboard.instantiateViewController(withIdentifier: select_CV) as UIViewController
+
+
+                let frontNavigationController = UINavigationController(rootViewController: rootVC)
+                appDelegate.window = UIWindow(frame: UIScreen.main.bounds)
+                appDelegate.window?.rootViewController = frontNavigationController
+                appDelegate.window?.makeKeyAndVisible()
+
+
+//                self.navigationController?.popViewController(animated: false)
+
             }else{
                 MBProgressHUD.hide(for: self.view, animated: true)
                 print("checkEmail is duplicate or not",responceJson["status"])
-                self.view.makeToast("mobile number already exists", duration: 3.0, position: .bottom)
+//                self.view.makeToast(NSLocalizedString("Digo_mobile_exit", comment: ""), duration: 3.0, position: .bottom)
+                let toast =  Toast(text: NSLocalizedString("Digo_mobile_exit", comment: ""), duration: 3.0)
+                toast.show()
+
+
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
@@ -219,8 +248,11 @@ extension RegisterVC{
             {
                 MBProgressHUD.hide(for: self.view, animated: true)
 
-                print("checkEmail is duplicate or not",responceJson["status"])
-                self.view.makeToast("email is already registered", duration: 3.0, position: .bottom)
+              //  print("checkEmail is duplicate or not",responceJson["status"])
+             //   self.view.makeToast("email is already registered", duration: 3.0, position: .bottom)
+                let toast =  Toast(text: NSLocalizedString("Digo_email_exit", comment: ""), duration: 3.0)
+                toast.show()
+
             }else
             {
 //                MBProgressHUD.hide(for: self.view, animated: true)
@@ -228,7 +260,10 @@ extension RegisterVC{
             }
         } errorComplition: { (errorMessage) in
             MBProgressHUD.hide(for: self.view, animated: true)
-            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+//            self.view.makeToast(errorMessage, duration: 3.0, position: .bottom)
+            let toast =  Toast(text: errorMessage, duration: 3.0)
+            toast.show()
+
         }
     }
 }

@@ -167,7 +167,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6U7-4h-d3h">
+                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6U7-4h-d3h">
                                                     <rect key="frame" x="20" y="40" width="25" height="25"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -566,7 +566,7 @@ VGV4dBAgVXM
                                                         <constraint firstAttribute="height" constant="45" id="Uqq-GE-Ha1"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="22"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     <connections>
                                                         <outlet property="delegate" destination="vG5-pN-l7t" id="X8j-d6-2D0"/>
                                                     </connections>

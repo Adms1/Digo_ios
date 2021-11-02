@@ -29,6 +29,7 @@
 		182255C0272695C40064A2FD /* ProductDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182255BE272695C40064A2FD /* ProductDetailCell.swift */; };
 		182255C1272695C40064A2FD /* ProductDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182255BF272695C40064A2FD /* ProductDetailCell.xib */; };
 		182255C42726A8C40064A2FD /* radio_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 182255C32726A8C40064A2FD /* radio_selected.png */; };
+		1829B1EF2731215D00416043 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829B1EE2731215D00416043 /* UIViewController.swift */; };
 		188225CE2727E25300D5AB42 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188225CD2727E25300D5AB42 /* Inter-Regular.ttf */; };
 		188225D12727E29200D5AB42 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188225D02727E29100D5AB42 /* Inter-Bold.ttf */; };
 		188225D42727FD6C00D5AB42 /* info_i.png in Resources */ = {isa = PBXBuildFile; fileRef = 188225D32727FD6B00D5AB42 /* info_i.png */; };
@@ -123,6 +124,7 @@
 		182255BE272695C40064A2FD /* ProductDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailCell.swift; sourceTree = "<group>"; };
 		182255BF272695C40064A2FD /* ProductDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailCell.xib; sourceTree = "<group>"; };
 		182255C32726A8C40064A2FD /* radio_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_selected.png; sourceTree = "<group>"; };
+		1829B1EE2731215D00416043 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		188225CD2727E25300D5AB42 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		188225D02727E29100D5AB42 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
 		188225D32727FD6B00D5AB42 /* info_i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_i.png; sourceTree = "<group>"; };
@@ -413,6 +415,7 @@
 				18F738CE27294F6000270E06 /* BundleExtension.swift */,
 				18FF0CDA2722CCA700487317 /* Helper.swift */,
 				182255B527266A700064A2FD /* UITextfield+Settings.swift */,
+				1829B1EE2731215D00416043 /* UIViewController.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -628,6 +631,7 @@
 				1886852427216DF500813C0A /* ListVCCell.swift in Sources */,
 				188685092721684200813C0A /* CoinsVC.swift in Sources */,
 				18037284272055A6009D75FA /* RegisterVC.swift in Sources */,
+				1829B1EF2731215D00416043 /* UIViewController.swift in Sources */,
 				188225DE272808B800D5AB42 /* TimeLineCell.swift in Sources */,
 				1886851F27216DCD00813C0A /* EmailCell.swift in Sources */,
 				188225E827281CE900D5AB42 /* ReferFriendVC.swift in Sources */,

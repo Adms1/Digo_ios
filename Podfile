@@ -19,6 +19,7 @@ pod 'GoogleSignIn'
     pod 'FacebookLogin'
     pod 'FacebookShare'
 pod 'razorpay-pod', '~> 1.1.1'
+pod 'Toaster'
 
 
   # Pods for DIGO
